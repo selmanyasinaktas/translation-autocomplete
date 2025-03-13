@@ -25,7 +25,7 @@ Automatically detects **missing translations** in i18n JSON files and fills them
 Install globally via NPM:
 
 ```sh
-npm install -g translation-autocomplete
+npm install translation-autocomplete
 ```
 
 or use without installation:
