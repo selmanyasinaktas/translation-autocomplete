@@ -14,7 +14,7 @@ const config = loadConfig()
 program
   .name('translation-autocomplete')
   .description('i18n translation autocomplete tool')
-  .version('1.0.0')
+  .version('1.0.3')
 
 /**
  * HELP KOMUTU - Kullanıcıya yardım sağlar
