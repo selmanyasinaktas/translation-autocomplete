@@ -3,16 +3,29 @@
   "version": "1.0.0",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "description": "Automatically detect missing translations and fill them using AI-powered translation APIs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/selmanyasin/translation-autocomplete.git"
+  },
+  "keywords": [
+    "i18n",
+    "translation",
+    "localization",
+    "missing translations"
+  ],
+  "author": "Selman Yasin Aktaş",
+  "license": "MIT",
   "exports": {
     ".": {
-      "require": "./dist/index.js",
-      "import": "./dist/index.mjs"
+      "require": "./dist/src/index.js",
+      "import": "./dist/src/index.mjs",
+      "types": "./dist/src/index.d.ts"
     }
   },
   "bin": {
     "translation-autocomplete": "./dist/bin/cli.js"
   },
-  "license": "MIT",
   "scripts": {
     "build": "tsc && tsc-alias",
     "start": "ts-node src/index.ts",
