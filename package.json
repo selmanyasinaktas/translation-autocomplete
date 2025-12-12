@@ -6,7 +6,7 @@
   "description": "Automatically detect missing translations and fill them using AI-powered translation APIs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/selmanyasin/translation-autocomplete.git"
+    "url": "https://github.com/selmanyasinaktas/translation-auto-complete.git"
   },
   "keywords": [
     "i18n",
