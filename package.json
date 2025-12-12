@@ -1,12 +1,16 @@
 {
   "name": "translation-autocomplete",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "description": "Automatically detect missing translations and fill them using AI-powered translation APIs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/selmanyasinaktas/translation-autocomplete.git"
+    "url": "git+https://github.com/selmanyasinaktas/translation-autocomplete.git"
+  },
+  "homepage": "https://github.com/selmanyasinaktas/translation-autocomplete#readme",
+  "bugs": {
+    "url": "https://github.com/selmanyasinaktas/translation-autocomplete/issues"
   },
   "keywords": [
     "i18n",
