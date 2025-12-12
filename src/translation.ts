@@ -70,7 +70,7 @@ interface ProgressCallback {
   (progress: { completed: number; total: number; current: string }): void
 }
 
-function sanitizeKey(text: string): string {
+export function sanitizeKey(text: string): string {
   // Convert dots to underscores and clean special characters
   return text
     .replace(/\./g, '_') // Convert dots to underscores
@@ -80,7 +80,7 @@ function sanitizeKey(text: string): string {
     .replace(/^_+|_+$/g, '') // Remove leading and trailing underscores
 }
 
-function flattenObject(obj: any, prefix = ''): Record<string, string> {
+export function flattenObject(obj: any, prefix = ''): Record<string, string> {
   return Object.keys(obj).reduce((acc: Record<string, string>, k: string) => {
     const pre = prefix.length ? prefix + '.' : ''
     if (
@@ -96,7 +96,7 @@ function flattenObject(obj: any, prefix = ''): Record<string, string> {
   }, {})
 }
 
-function setNestedValue(
+export function setNestedValue(
   obj: Record<string, any>,
   path: string,
   value: any
